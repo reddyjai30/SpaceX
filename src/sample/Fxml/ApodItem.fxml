@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #CBC3E3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.ApodItemController">
+   <children>
+      <VBox id="vb1" layoutY="-1.0" prefHeight="600.0" prefWidth="700.0">
+         <children>
+            <HBox id="hb1" alignment="CENTER" prefHeight="46.0" prefWidth="550.0">
+               <children>
+                  <Label id="tittle" fx:id="title" alignment="CENTER" prefHeight="38.0" prefWidth="645.0" text="Label">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="29.0" prefWidth="700.0">
+               <children>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="30.0" prefWidth="125.0" text="Apod By :-" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label id="copyRight" fx:id="copyRight" prefHeight="30.0" prefWidth="554.0" text="CopyRight by" wrapText="true">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="29.0" prefWidth="700.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="104.0" text="Date" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" right="25.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label id="date" fx:id="date" prefHeight="46.0" prefWidth="495.0" text="12/12/12" wrapText="true">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="292.0" prefWidth="700.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="142.0" text="Explanation" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" right="25.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label id="explanation" fx:id="explanation" alignment="TOP_LEFT" prefHeight="292.0" prefWidth="598.0" text="This is Explanation" wrapText="true">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
